@@ -12,15 +12,26 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script type="text/javascript" src="add.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 <link rel="stylesheet" href="css/index.css">
 
 </head>
 <body>
-	<div class="container col-md-8 col-md-offset-2">
+<canvas id=d style="z-index: -1; position: absolute;"></canvas>
+<script src="index.js"></script>
+
+	<div class="container col-md-6 col-md-offset-2"
+		style="align: center; margin-left: 25%; margin-right: 25%;">
+	
 		<div class="row">
 			<div class="text-center">
 				<img src="images/my_avatar.jpg" class="img-circle" alt="Avatar"
-					width="100" height="100">
+					width="120" height="125"
+					style="width: 120px; height: 125px; background-position: center center; background-repeat: no-repeat;">
 				<div>
 					<h3>Phong Nguyen</h3>
 					<h4>Android developer</h4>
@@ -28,7 +39,9 @@
 			</div>
 		</div>
 		<div class="row">
-			<h4>PERSONAL SUMMARY PERSONAL SUMMARY</h4>
+			<h4>
+				<strong>Personal summary</strong>
+			</h4>
 			<p>A skilled Java & Android developer with strong background
 				knowledge, proven expertise in using Android Studio and technical
 				developments to build entire application. Having good analytical,
@@ -40,79 +53,93 @@
 		<div class="row">
 			<h4>KEY SKILLS AND COMPETENCIES</h4>
 			<p>
-			• Strong OOP, core Java and Android background, algorithms structures. • Solid understanding about Android development.
-• Got familiar with MVP (mosby) pattern, Reactive Programing (RxAndroid), Dagger, Retrofit, Realm, Gradle.
-• Experience of integrating Amazon Web Service (S3), Azure Cloud Service (Azure Blob), SignalR (Chatting), Google Map, OneSignal, Facebook SDK, Twitter SDK.
-• Extensive experience in Scrum methodology as a developer in Development team, basic experience as a Scrum Master.
-• Got familiar with handling real time processes (SocketIO), graph and chart (MP Android chart), media (image/video).
-• Able to do Unit Testing, UI Automation Testing (Espresso). Follow the spirit of TDD. • Able to apply some core Design Patterns, always pay attention to code quality.
-• Got familiar with Version Control Systems (Git, GitLab, GitHub, Bitbucket), JIRA, Zeplin.
-• Basic knowledge of Groovy, Kotlin, Jenkins.
-• Basic knowledge of Database: SQL server, MySQL, SQLite, MongoDb. • Basic knowledge of HTML, CSS, Java Script, Bootstrap, JQuery.
-• Able to develop creative solutions for difficult problems.</p>
+			• Strong OOP, core Java and Android background, algorithms structures. <br/>
+			• Solid understanding about Android development. <br/>
+			• Got familiar with MVP (mosby) pattern, Reactive Programing (RxAndroid), Dagger, Retrofit, Realm, Gradle. <br/>
+			• Experience of integrating Amazon Web Service (S3), Azure Cloud Service (Azure Blob), SignalR. <br/>
+				(Chatting), Google Map, OneSignal, Facebook SDK, Twitter SDK. <br/>
+			• Extensive experience in Scrum methodology as a developer in Development team, basic experience as a Scrum Master. <br/>
+			• Got familiar with handling real time processes (SocketIO), graph and chart (MP Android chart), media (image/video). <br/>
+			• Able to do Unit Testing, UI Automation Testing (Espresso). Follow the spirit of TDD. <br/>
+			• Able to apply some core Design Patterns, always pay attention to code quality. <br/>
+			• Got familiar with Version Control Systems (Git, GitLab, GitHub, Bitbucket), JIRA, Zeplin. <br/>
+			• Basic knowledge of Groovy, Kotlin, Jenkins. <br/>
+			• Basic knowledge of Database: SQL server, MySQL, SQLite, MongoDb. <br/>
+			• Basic knowledge of HTML, CSS, Java Script, Bootstrap, JQuery. <br/>
+			• Able to develop creative solutions for difficult problems.</p>
 		</div>
 		<div class="row">
 			<h4>EXPERIENCE</h4>
-			<p>• Projects:
-- Industry:
-1. MyScoop (Social Network for journalists):
-+ Responsibility: Handle social side, video player, image processing. + Technology: Dagger, Retrofit, Task (Bolt), opencv, Amazone S3.
-2. Jus’lookin (Find and make new friends at clubs):
-+ Responsibility: Implement all features of Android side: handle Google map data about nearby clubs, search clubs, chatting, in app purchase.
-+ Technology: RxJava, Dagger, MVP, Retrofit, SignalR, Azure Cloud, Google Map service, Realm.
-+ Link to store: https://play.google.com/store/apps/details?id=com.app.avb
-3. Kiddi (Help children with mental retardation):
-+ Responsibility: Scrum master and Android team leader.
-+ Technology: RxJava, Dagger, MVP, Retrofit, Amazon S3, Realm, Google Map service, YouTube. + Link to store: https://play.google.com/store/apps/details?id=com.beesightsoft.kiddi
-4. ProMPT (Internal social network, statistics and charts for drilling engineers):
-+ Responsibility: Handling posting and displaying social content (text, image, video), statistics and charts.
-+ Technology: RxJava, Dagger, MVP, Retrofit, Google Map service, SocketIO, MPChart, OneSignal, ExoPlayer. + Link to store: https://play.google.com/store/apps/details?id=com.moblize.prompt
-5. SaysWe (Social network to share voting and pledge):
-+ Responsibility: Android development.
-+ Technology: RxJava, Dagger, MVP, Retrofit, Google Map service, OneSignal, Facebook SDK, Twitter SDK. + Link to store: https://play.google.com/store/apps/details?id=org.sayswe.sayswe
-- Personal:
-1. ProCleaner (Hire household workers hourly):
-+ Responsibility: Implement all features of Android side and a part of backend: find workers, make requests, manage transactions, rate workers.
-+ Technology: NodeJS, MongoDb.
-+ Link to store: https://play.google.com/store/apps/details?id=phong.com.nguoigiupviec
-2. Earnings Payments History (Manage earnings – payments):
-+ Responsibility: Implement all features of Android side: manage and filter data.
-+ Technology: RxJava, Dagger, MVP, Retrofit, Realm.
-+ Link to store: https://play.google.com/store/apps/details?id=moneymanager.app.com
-• Technical blogs:
-- You Tube: https://www.youtube.com/c/thinktwicecodeonce
-- Stack Overflow: https://stackoverflow.com/users/4497812/think-twice-code-once https://stackoverflow.com/story/thinktwicecodeonce
-• English Presentation: https://drive.google.com/drive/folders/18OqzX9ycmVx2iEo1zO3ZoVQbPS1Iukye?usp=sharing
-• Programming competitions: ACM ICPC 2013 (nationwide online), ACM PTIT 2012, 2013 (university), SPOJ, CodeFights.</p>
+			<p>• Projects: - Industry: 1. MyScoop (Social Network for
+				journalists): + Responsibility: Handle social side, video player,
+				image processing. + Technology: Dagger, Retrofit, Task (Bolt),
+				opencv, Amazone S3. 2. Jus’lookin (Find and make new friends at
+				clubs): + Responsibility: Implement all features of Android side:
+				handle Google map data about nearby clubs, search clubs, chatting,
+				in app purchase. + Technology: RxJava, Dagger, MVP, Retrofit,
+				SignalR, Azure Cloud, Google Map service, Realm. + Link to store:
+				https://play.google.com/store/apps/details?id=com.app.avb 3. Kiddi
+				(Help children with mental retardation): + Responsibility: Scrum
+				master and Android team leader. + Technology: RxJava, Dagger, MVP,
+				Retrofit, Amazon S3, Realm, Google Map service, YouTube. + Link to
+				store:
+				https://play.google.com/store/apps/details?id=com.beesightsoft.kiddi
+				4. ProMPT (Internal social network, statistics and charts for
+				drilling engineers): + Responsibility: Handling posting and
+				displaying social content (text, image, video), statistics and
+				charts. + Technology: RxJava, Dagger, MVP, Retrofit, Google Map
+				service, SocketIO, MPChart, OneSignal, ExoPlayer. + Link to store:
+				https://play.google.com/store/apps/details?id=com.moblize.prompt 5.
+				SaysWe (Social network to share voting and pledge): +
+				Responsibility: Android development. + Technology: RxJava, Dagger,
+				MVP, Retrofit, Google Map service, OneSignal, Facebook SDK, Twitter
+				SDK. + Link to store:
+				https://play.google.com/store/apps/details?id=org.sayswe.sayswe -
+				Personal: 1. ProCleaner (Hire household workers hourly): +
+				Responsibility: Implement all features of Android side and a part of
+				backend: find workers, make requests, manage transactions, rate
+				workers. + Technology: NodeJS, MongoDb. + Link to store:
+				https://play.google.com/store/apps/details?id=phong.com.nguoigiupviec
+				2. Earnings Payments History (Manage earnings – payments): +
+				Responsibility: Implement all features of Android side: manage and
+				filter data. + Technology: RxJava, Dagger, MVP, Retrofit, Realm. +
+				Link to store:
+				https://play.google.com/store/apps/details?id=moneymanager.app.com •
+				Technical blogs: - You Tube:
+				https://www.youtube.com/c/thinktwicecodeonce - Stack Overflow:
+				https://stackoverflow.com/users/4497812/think-twice-code-once
+				https://stackoverflow.com/story/thinktwicecodeonce • English
+				Presentation:
+				https://drive.google.com/drive/folders/18OqzX9ycmVx2iEo1zO3ZoVQbPS1Iukye?usp=sharing
+				• Programming competitions: ACM ICPC 2013 (nationwide online), ACM
+				PTIT 2012, 2013 (university), SPOJ, CodeFights.</p>
 		</div>
 		<div class="row">
 			<h4>AREAS OF EXPERTISE</h4>
-			<p>Java Android
-C/C++
-Data structures and algorithms</p>
+			<p>Java Android C/C++ Data structures and algorithms</p>
 		</div>
 		<div class="row">
 			<h4>PROFESSIONAL</h4>
-			<p>Java Programming Certificate (New Star)
-Android developer Certificate (University of science -HCM City Computer Science Center)
-TOEIC 680 points (IIG Vietnam)</p>
+			<p>Java Programming Certificate (New Star) Android developer
+				Certificate (University of science -HCM City Computer Science
+				Center) TOEIC 680 points (IIG Vietnam)</p>
 		</div>
 		<div class="row">
 			<h4>ACADEMIC QUALIFICATIONS</h4>
-			<p>Posts and Telecommunications Institute of Technology, HCM City (2011 -2016)</p>
+			<p>Posts and Telecommunications Institute of Technology, HCM City
+				(2011 -2016)</p>
 		</div>
 		<div class="row">
 			<h4>PERSONAL DETAILS</h4>
-			<p>Nguyen Van Phong
-82/9 Nguyen Hong Dao, Tan Binh district, Ho Chi Minh City, Viet Nam. Nationality: Vietnamese.
-Mobile: 0932 679 560
-Email: phongit168@gmail.com
-Date of birth: August 16th, 1993 Gender: Male</p>
+			<p>Nguyen Van Phong 82/9 Nguyen Hong Dao, Tan Binh district, Ho
+				Chi Minh City, Viet Nam. Nationality: Vietnamese. Mobile: 0932 679
+				560 Email: phongit168@gmail.com Date of birth: August 16th, 1993
+				Gender: Male</p>
 		</div>
-		<div class="row">
+		<div class="row" style="margin-bottom: 60px">
 			<h4>HOBBIES</h4>
-			<p>Sports: football, badminton.
-Learning English, talking with the foreigners.</p>
+			<p>Sports: football, badminton. Learning English, talking with
+				the foreigners.</p>
 		</div>
 	</div>
 </body>

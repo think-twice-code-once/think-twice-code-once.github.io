@@ -7,21 +7,33 @@ and open the template in the editor.
     Created on : Sep 27, 2017, 8:31:31 PM
     Author     : PHONG
 */
-
+/* 
 body, html {
     height: 100%;
-    background-color: #EDEDED;
+    background-color: #f7f7f7;
 }
-
+ */
 .row {
-    background-color: #6ab344;
+    background-color: #e1f5fe;
+    opacity: .7;
     margin-top: 25px;
     border-radius: 5px;
     padding: 15px;
 }
 
-h3, h4, p {
-    color: white;
+h3, h4, p, pre {
+    color: #0288d1;
 }
 
+.center-cropped {
+	width: 200px;
+	height: 200px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
 
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
